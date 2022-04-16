@@ -10,19 +10,19 @@
     <div class="py-8">
 
 			<nav class="flex justify-center space-x-10 pb-10">
-				<a href="/" class="font-medium text-gray-500 hover:text-gray-900">
+				<a href="/" class="font-medium text-gray-500 hover:text-gray-900 transform transition-all hover:scale-125">
 				<svg class="w-4 h-4 inline-block -mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg>
 				Home</a>
-				<a href="/pricing" class="font-bold text-gray-800 hover:text-gray-900">
+				<a href="/pricing" class="font-bold text-gray-800 hover:text-gray-900 transform transition-all hover:scale-125">
 				<svg class="w-4 h-4 inline-block -mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
 				Pricing</a>
-				<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900">
+				<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900 transform transition-all hover:scale-125">
 				<svg class="w-4 h-4 inline-block -mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path></svg>
 				Blog</a>				
-				<a href="/login" class="font-medium text-gray-500 hover:text-gray-900">
+				<a href="/login" class="font-medium text-gray-500 hover:text-gray-900 transform transition-all hover:scale-125">
 				<svg class="w-4 h-4 inline-block -mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 16l-4-4m0 0l4-4m-4 4h14m-5 4v1a3 3 0 01-3 3H6a3 3 0 01-3-3V7a3 3 0 013-3h7a3 3 0 013 3v1"></path></svg>
 				Login</a>
-				<a href="/signup" class="font-medium text-white hover:bg-blue-600 bg-blue-500 px-3 py-2 -mt-2 rounded-lg">Sign up</a>
+				<a href="/signup" class="font-medium text-white hover:bg-blue-600 bg-blue-500 px-3 py-2 -mt-2 rounded-lg transform transition-all hover:scale-125">Sign up</a>
 			</nav>
 
       <h1 class="mt-10 text-center text-3xl mb-10 font-extrabold tracking-tight text-gray-900">
@@ -31,9 +31,9 @@
 
 			<div class="mt-20 mx-auto text-center max-w-3xl px-10">			
                 
-                <div class="space-y-12 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8">
+                <div class="space-y-12 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-8 lg:grid-cols-3">
 	                <div class="p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
-		                <h3 class="text-3xl font-semibold text-gray-900">Basic</h3>
+		                <h3 class="text-3xl font-semibold text-gray-900">Standard</h3>
 
                         <p class="mt-4 mx-auto">
                             <span class="text-5xl font-extrabold tracking-tight">$29</span>
@@ -50,6 +50,11 @@
                             <li class="flex">
                                 <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
                                 <span class="ml-3 text-gray-500 text-left">Support</span>
+                            </li>
+
+                            <li class="flex">
+                                <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                                <span class="ml-3 text-gray-500 text-left">Much more features</span>
                             </li>
                         </ul>
 	                </div>
@@ -80,10 +85,50 @@
                             </li>
                         </ul>
 	                </div>
+
+                    <div class="p-8 bg-white border border-gray-200 rounded-2xl shadow-sm flex flex-col">
+		                <h3 class="text-3xl font-semibold text-gray-900">One time purchase</h3>
+
+                        <p class="mt-4 mx-auto">
+                            <span class="text-5xl font-extrabold tracking-tight">$249</span>
+                            <span class="ml-1 text-xl font-semibold"></span>
+                        </p>
+                        <p class="mt-6 text-gray-500"></p>
+
+                        <ul role="list" class="mt-6 space-y-6">
+                            <li class="flex">
+                                <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                                <span class="ml-3 text-gray-500 text-left">Access to out service</span>
+                            </li>
+
+                            <li class="flex">
+                                <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                                <span class="ml-3 text-gray-500 text-left">Support</span>
+                            </li>
+
+                            <li class="flex">
+                                <span class="-mt-2 text-blue-500 text-3xl">&check;</span>
+                                <span class="ml-3 text-gray-500 text-left">First 3 updates for free</span>
+                            </li>
+                        </ul>
+	                </div>
+
                 </div>
                 <a href="#"
 	            class="bg-blue-500 text-white hover:bg-blue-600 mt-8 block w-full py-3 px-6 border border-transparent rounded-md text-center font-medium">Sign up</a>
 		    </div>
+
+        <footer class="mt-20 pt-12 border-t-2 border-gray-300">
+				<nav class="flex justify-center pb-10 space-x-10">
+					<a href="/" class="font-medium text-gray-500 hover:text-gray-900">Home</a>
+          <a href="/pricing" class="font-medium text-gray-500 hover:text-gray-900">Pricing</a>
+					<a href="/blog" class="font-medium text-gray-500 hover:text-gray-900">Blog</a>				
+        </nav>
+				<p class="text-center text-gray-400">
+					&copy; 2021 Great Tool. All rights reserved.
+				</p>
+			</footer>
+
     </div>
 	</body>
 </html>
